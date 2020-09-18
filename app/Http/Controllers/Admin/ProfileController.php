@@ -54,7 +54,7 @@ class ProfileController extends Controller
       abort(404);
       
     }
-    
+   // var_dump($profile->toArray());
     return view('admin.profile.edit', ['profile_form' => $profile]);
     
   }

@@ -43,7 +43,7 @@
                                 <tr>
                                     <th>{{ $profile->id }}</th>
                                     <td>{{ \Str::limit($profile->name, 100) }}</td>
-                                    <td>{{ \Str::limit($profile->gender, 300) }}</td>
+                                    <td>{{ \Str::limit($profile->gender,200) }}</td>
                                     <td>{{ \Str::limit($profile->hobby, 100) }}</td>
                                     <td>{{ \Str::limit($profile->introduction, 100) }}</td>
                                                                       <td>
