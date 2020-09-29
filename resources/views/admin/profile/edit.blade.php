@@ -26,8 +26,8 @@
                     <label class="col-md-2" for="gender">性別</label>
                     <div class="col-md-10">
                     <!-- コメント -->
-                    <input type="radio" name="gender" value="男性" {{ $profile_form->gender == "man" ? 'checked="checked"' : ''}}>男性
-                    <input type="radio" name="gender" value="女性" {{ $profile_form->gender == "woman" ? 'checked="checked"' : ''}}>女性
+                    <input type="radio" name="gender" value="男性" {{ $profile_form->gender == "男性" ? 'checked="checked"' : ''}}>男性
+                    <input type="radio" name="gender" value="女性" {{ $profile_form->gender == "女性" ? 'checked="checked"' : ''}}>女性
                     </div>
                   </div>
                   <div class="form-group row">

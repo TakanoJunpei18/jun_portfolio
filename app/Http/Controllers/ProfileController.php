@@ -11,7 +11,7 @@ class ProfileController extends Controller
 {
     public function index(request $request)
     {
-        $posts = Profile::all()->sortByDesc('update_at');
+    $Profiles = Profile::all()->sortByDesc('update_at');
         
         if (count($posts) > 0) {
             $headline = $posts->shift();
