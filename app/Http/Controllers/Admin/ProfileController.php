@@ -89,7 +89,7 @@ class ProfileController extends Controller
       // 削除する
       $profile->delete();
       
-      return redirect('admin/profile/edit');
+      return redirect('admin/profile/');
      
     
   }

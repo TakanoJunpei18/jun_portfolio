@@ -1,10 +1,10 @@
 @extends('layouts.admin')
-@section('title', '登録済みプロフィールの一覧')
+@section('title', '登録済みトレメニュー一覧')
 
 @section('content')
     <div class="container">
         <div class="row">
-            <h2>プロフィール一覧 追加開発</h2>
+            <h2>登録済みトレメニュー一覧</h2>
         </div>
         <div class="row">
             <div class="col-md-4">
@@ -34,8 +34,8 @@
                                 <th width="10%">ID</th>
                                 <th width="20%">氏名</th>
                                 <th width="30%">性別</th>
-                                <th width="20%">趣味</th>
-                                <th width="20%">自己紹介</th>
+                                <th width="20%">部位</th>
+                                <th width="20%">メニュー</th>
                             </tr>
                         </thead>
                         <tbody>

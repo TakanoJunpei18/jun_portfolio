@@ -60,6 +60,7 @@ Route::group(['prefix' => 'admin'], function() {
     Route::get('news/edit', 'Admin\NewsController@edit')->middleware('auth');
     Route::post('news/edit', 'Admin\NewsController@update')->middleware('auth');
     Route::get('news/delete', 'Admin\NewsController@delete')->middleware('auth');
+   
     Route::get('profile/create', 'Admin\ProfileController@add')->middleware('auth');
     Route::post('profile/create', 'Admin\ProfileController@create')->middleware('auth');
     Route::get('profile', 'Admin\ProfileController@index')->middleware('auth');

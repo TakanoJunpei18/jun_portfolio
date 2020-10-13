@@ -31,9 +31,9 @@
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label class="col-md-2" for="hobby">趣味</label>
+                    <label class="col-md-2" for="Part">部位</label>
                     <div class="col-md-10">
-                      <textarea class="form-control" name="hobby">{{ $profile_form->hobby }}</textarea>
+                      <textarea class="form-control" name="Part">{{ $profile_form->Part }}</textarea>
                     </div>
                   </div>
                   <div class="form-group row">

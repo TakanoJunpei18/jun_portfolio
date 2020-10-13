@@ -6,7 +6,7 @@
   <div class="container">
       <div class="row">
           <div class="col-md-8 mx-auto">
-                <h2>My プロフィール</h2>
+                <h2>Mytoreoutput</h2>
                 <form action="{{ action('Admin\ProfileController@create') }}" method="post" enctype="multipart/form-date">
                   
                   @if( count($errors) > 0 )
@@ -30,13 +30,13 @@
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label class="col-md-2">趣味</label>
+                    <label class="col-md-2">部位</label>
                     <div class="col-md-10">
                       <textarea class="form-control" name="hobby" value="{{ old('hobby') }}"></textarea>
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label class="col-md-2">自己紹介</label>
+                    <label class="col-md-2">メニュー</label>
                     <div class="col-md-10">
                       <textarea class="form-control" name="introduction" value="{{ old('introduction') }}"></textarea>
                     </div>
