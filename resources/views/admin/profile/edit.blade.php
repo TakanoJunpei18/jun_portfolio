@@ -31,13 +31,13 @@
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label class="col-md-2" for="Part">部位</label>
+                    <label class="col-md-2" for="hobby">部位</label>
                     <div class="col-md-10">
-                      <textarea class="form-control" name="Part">{{ $profile_form->Part }}</textarea>
+                      <textarea class="form-control" name="hobby">{{ $profile_form->hobby }}</textarea>
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label class="col-md-2" for="introduction">自己紹介</label>
+                    <label class="col-md-2" for="introduction">メニュー</label>
                     <div class="col-md-10">
                       <textarea class="form-control" name="introduction" rows="10">{{ $profile_form->introduction }}</textarea>
                     </div>

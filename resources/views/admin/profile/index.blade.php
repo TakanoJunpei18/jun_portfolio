@@ -33,9 +33,9 @@
                             <tr>
                                 <th width="10%">ID</th>
                                 <th width="20%">氏名</th>
-                                <th width="30%">性別</th>
-                                <th width="20%">部位</th>
-                                <th width="20%">メニュー</th>
+                                <th width="10%">性別</th>
+                                <th width="10%">部位</th>
+                                <th width="40%">メニュー</th>
                             </tr>
                         </thead>
                         <tbody>
